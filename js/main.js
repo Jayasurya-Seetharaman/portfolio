@@ -33,7 +33,6 @@
 
         smoothScroll();
         menuBtn();
-        pageTransition();
         backgroundImage();
         popupGallery();
         youtubePopup();
@@ -129,19 +128,6 @@
             }, 300);
             $('.page-overlay').css('height', '0%');
         });
-    };
-
-    // page transition init
-    function pageTransition() {
-        // $('.page-links a').not('[href="#"]').not('[href="#0"]').on('click', function (e) {
-        //     e.preventDefault();
-        //     var href = this.getAttribute('href');
-        //     console.log('unwanted css');
-        //     $('.page-overlay').css('height', '100%');
-        //     setTimeout(function () {
-        //         window.location = href;
-        //     }, 550);
-        // });
     };
 
     // background-image init

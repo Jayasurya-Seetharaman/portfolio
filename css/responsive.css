@@ -62,6 +62,9 @@
     .single-blog-title {
         font-size: 24px;
     }
+    .project-item {
+        margin-bottom: 0;
+    }
 }
 
 

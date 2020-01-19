@@ -1,49 +1,4 @@
-/*==============================================================================
-
- * Template Name: Kuba - Minimal Portfolio Template
- * Description: Responsive HTML5 Template
- * Version: 1.0
-
-
-==============================================================================
-    
-    [Table of contents]
-    ===================
-	+ Base styles: opinionated defaults
-	+ begin of main-wrapper
-	+ begin of helper classes
-	+ begin of loader
-	+ begin of lineAnim-bg
-	+ begin of header
-	  - logo
-	  - menu button
-	+ begin of full-screen-menu
-	+ begin of landing-wrapper
-	  - circle-animation
-	  - wave-animation
-	+ begin of service-wrapper
-    + begin of project-wrapper
-      - begin of project filter button style
-    + begin of promotion-wrapper
-    + begin of breadcrumb-wrapper
-    + begin of about-wrapper
-    + begin of video-popup-wrapper
-    + begin of skill-slider-wrapper
-    + begin of team-wrapper
-    + begin of testimonials-wrapper
-    + begin of client-image-wrapper
-    + begin of blogs-wrapper
-    + begin of blog-single-wrapper
-    + begin of contact-wrapper
-      - form validation start
-    + begin of footer
-
-==============================================================================*/
-
-/* ==========================================================================
-   All CSS Files
-   ========================================================================== */
-
+/* All CSS Files */
 @import url('https://fonts.googleapis.com/css?family=Oswald:500|Catamaran:300,400,500,700,900');
 @import url('bootstrap.min.css');
 @import url('plugins.css');
@@ -51,70 +6,17 @@
 @import url('custom.animations.css');
 
 
-/* ==========================================================================
-   Base styles: opinionated defaults
-========================================================================== */
+/* Base styles: opinionated defaults */
 
-html,
-body {
-    height: 100%;
-    width: 100%;
-}
-
-body {
-    overflow: hidden;
-    font-family: 'Catamaran', sans-serif;
-    font-size: 18px;
-    line-height: 1.7;
-}
-
-body.body-no-scroll-fixed {
-    padding-right: 17px;
-}
-
-::-moz-selection {
-    background: transparent;
-    color: #373BFF;
-    text-shadow: none;
-}
-
-::selection {
-    background: transparent;
-    color: #373BFF;
-    text-shadow: none;
-}
-
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-a,
-a:hover {
-    text-decoration: none;
-    transition: .3s;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -ms-transition: .3s;
-    -o-transition: .3s;
-}
-
-button,
-button:focus {
-    outline: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-}
+html, body {height: 100%; width: 100%;}
+body {overflow: hidden; font-family: 'Catamaran', sans-serif; font-size: 18px; line-height: 1.7;}
+body.body-no-scroll-fixed {padding-right: 17px;}
+::-moz-selection {background: transparent; color: #373BFF; text-shadow: none;}
+::selection { background: transparent; color: #373BFF; text-shadow: none; }
+.browserupgrade {margin: 0.2em 0; background: #ccc; color: #000; padding: 0.2em 0;}
+a, a:hover { text-decoration: none; transition: .3s; -webkit-transition: .3s; -moz-transition: .3s; -ms-transition: .3s; -o-transition: .3s;}
+button, button:focus { outline: 0; }
+h1, h2, h3, h4, h5, h6, p { margin: 0; }
 
 ul,
 li {
@@ -133,9 +35,7 @@ li {
 	border-radius: 2px;
 }
 
-/* ==========================================================================
-   begin of main-wrapper
-========================================================================== */
+/* begin of main-wrapper */
 
 .main-wrapper {
     opacity: 0;
@@ -159,9 +59,7 @@ li {
     z-index: 999;
 }
 
-/* ==========================================================================
-   begin of helper classes
-========================================================================== */
+/* begin of helper classes */
 
 .noise {
     background-image: url(../img/noise-white.png);
@@ -313,9 +211,7 @@ li {
 	bottom: 5px;
 }
 
-/* ==========================================================================
-   begin of loader
-========================================================================== */
+/* begin of loader */
 
 .preloader {
     position: fixed;
@@ -378,13 +274,9 @@ li {
     margin: 5px 0;
 }
 
-/* ==========================================================================
-   end of loader
-========================================================================== */
-/* ==========================================================================
-   begin of lineAnim-bg
-========================================================================== */
+/* end of loader */
 
+/* begin of lineAnim-bg */
 .lineAnim-bg {
     position: absolute;
     left: 0;
@@ -438,12 +330,8 @@ li {
     -o-transform: translateY(-160px);
 }
 
-/* ==========================================================================
-   end of lineAnim-bg
-========================================================================== */
-/* ==========================================================================
-   begin of header
-========================================================================== */
+/* end of lineAnim-bg */
+/* begin of header */
 
 header {
     height: 70px;
@@ -583,12 +471,8 @@ nav .submenu {
     -o-transition: .3s;
 }
 
-/* ==========================================================================
-   end of header
-========================================================================== */
-/* ==========================================================================
-   begin of full-screen-menu
-========================================================================== */
+/* end of header */
+/* begin of full-screen-menu */
 
 .full-screen-menu {
     position: fixed;
@@ -725,13 +609,9 @@ nav .submenu {
     }
 }
 
-/* ==========================================================================
-   end of full-screen-menu
-========================================================================== */
+/* end of full-screen-menu */
 
-/* ==========================================================================
-   begin of landing-wrapper
-========================================================================== */
+/* begin of landing-wrapper */
 
 .landing-wrapper {
     position: relative;
@@ -876,12 +756,8 @@ nav .submenu {
 	color: #aaa;
 }
 
-/* ==========================================================================
-   end of landing-wrapper
-========================================================================== */
-/* ==========================================================================
-   begin of service-wrapper
-========================================================================== */
+/* end of landing-wrapper */
+/* begin of service-wrapper */
 
 .service-item {
     border: 1px solid #ddd;
@@ -1048,13 +924,13 @@ nav .submenu {
     -o-transition-delay: 1s;
 }
 
-/* ==========================================================================
-   end of service-wrapper
-========================================================================== */
-/* ==========================================================================
-   begin of project-wrapper
-========================================================================== */
+/* end of service-wrapper */
+/* begin of project-wrapper */
 
+.project-item {
+    margin-bottom: 40px;
+}
+.project-item:last-child{margin-bottom: 0;}
 .project-item.right-image {
 	text-align: right;
 }
@@ -1268,12 +1144,8 @@ nav .submenu {
 
 /* end of project filter button style */
 
-/* ==========================================================================
-   end of project-wrapper
-========================================================================== */
-/* ==========================================================================
-   begin of promotion-wrapper
-========================================================================== */
+/* end of project-wrapper */
+/* begin of promotion-wrapper */
 
 .promotion-wrapper {
 	background-color: #191A1B;
@@ -1295,12 +1167,8 @@ nav .submenu {
     text-decoration: underline;
 }
 
-/* ==========================================================================
-   end of promotion-wrapper
-========================================================================== */
-/* ==========================================================================
-   begin of breadcrumb-wrapper
-========================================================================== */
+/* end of promotion-wrapper */
+/* begin of breadcrumb-wrapper */
 
 .breadcrumb-wrapper {
     padding: 100px 0;
@@ -1317,12 +1185,8 @@ nav .submenu {
 	color: #777;
 }
 
-/* ==========================================================================
-   end of breadcrumb-wrapper
-========================================================================== */
-/* ==========================================================================
-   begin of about-wrapper
-========================================================================== */
+/* end of breadcrumb-wrapper */
+/* begin of about-wrapper */
 
 .text-box-title {
 	font-weight: 600;
@@ -1360,12 +1224,8 @@ nav .submenu {
 	text-align: center;
 }
 
-/* ==========================================================================
-   end of about-wrapper
-========================================================================== */
-/* ==========================================================================
-   begin of video-popup-wrapper
-========================================================================== */
+/* end of about-wrapper */
+/* begin of video-popup-wrapper */
 
 .video-popup-wrapper {
 	height: 450px;
@@ -1446,13 +1306,9 @@ nav .submenu {
     color: #000;
 }
 
-/* ==========================================================================
-   end of video-popup-wrapper
-========================================================================== */
-/* ==========================================================================
-   begin of skill-slider-wrapper
-========================================================================== */
+/* end of video-popup-wrapper */
 
+/* begin of skill-slider-wrapper */
 .skill-single h4 {
 	font-weight: 600;
 	margin-bottom: 2px;
@@ -1485,14 +1341,9 @@ nav .submenu {
     right: 0;
     top: 0;
 }
+/* end of skill-slider-wrapper */
 
-/* ==========================================================================
-   end of skill-slider-wrapper
-========================================================================== */
-/* ==========================================================================
-   begin of team-wrapper
-========================================================================== */
-
+/* begin of team-wrapper */
 .team-wrapper {
     padding-bottom: 60px;
 }
@@ -1525,14 +1376,9 @@ nav .submenu {
 .team-item:hover img {
     opacity: 1;
 }
+/* end of team-wrapper */
 
-/* ==========================================================================
-   end of team-wrapper
-========================================================================== */
-/* ==========================================================================
-   begin of testimonials-wrapper
-========================================================================== */
-
+/* begin of testimonials-wrapper */
 .testimonials-item {
 	text-align: left;
 }
@@ -1597,14 +1443,9 @@ nav .submenu {
     background-color: #373bff;
     width: 35px;
 }
+/* end of testimonials-wrapper */
 
-/* ==========================================================================
-   end of testimonials-wrapper
-========================================================================== */
-/* ==========================================================================
-   begin of client-image-wrapper
-========================================================================== */
-
+/* begin of client-image-wrapper */
 .client-image-wrapper {
     padding-bottom: 70px;
 }
@@ -1672,14 +1513,9 @@ nav .submenu {
     opacity: 1;
     visibility: visible;
 }
+/* end of client-image-wrapper */
 
-/* ==========================================================================
-   end of client-image-wrapper
-========================================================================== */
-/* ==========================================================================
-   begin of blogs-wrapper
-========================================================================== */
-
+/* begin of blogs-wrapper */
 .blog-item .blog-img {
     overflow: hidden;
     position: relative;
@@ -1850,15 +1686,9 @@ nav .submenu {
 .paginations li:hover a {
     color: #fff;
 }
+/* end of blogs-wrapper */
 
-/* ==========================================================================
-   end of blogs-wrapper
-========================================================================== */
-
-/* ==========================================================================
-   begin of blog-single-wrapper
-========================================================================== */
-
+/* begin of blog-single-wrapper */
 .blog-details-wrapper {
 	padding-top: 150px;
 }
@@ -2108,14 +1938,9 @@ nav .submenu {
     width:100%;
     border: 0;
 }
+/* end of blog-single-wrapper */
 
-/* ==========================================================================
-   end of blog-single-wrapper
-========================================================================== */
-/* ==========================================================================
-   begin of contact-wrapper
-========================================================================== */
-
+/* begin of contact-wrapper */
 .social-info h3,
 .contact-info h3 {
 	font-size: 22px;
@@ -2267,18 +2092,11 @@ textarea.input_control {
 .input_required.inputNotEmpty.invalid + label {
     color: #f52828;
 }
-
 /* form validation end */
 
-/* ==========================================================================
-   end of contact-wrapper
-========================================================================== */
+/* end of contact-wrapper */
 
-
-/* ==========================================================================
-   begin of footer
-========================================================================== */
-
+/* begin of footer */
 footer {
 	background-color: #131517;
     border-top: 0px !important;
@@ -2375,8 +2193,5 @@ footer {
     opacity: 1;
     visibility: visible;
 }
-
-/* ==========================================================================
-   end of footer
-========================================================================== */
+/* end of footer */
 
