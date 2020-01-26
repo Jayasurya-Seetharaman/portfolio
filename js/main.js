@@ -27,6 +27,12 @@
 
     });
 
+    var winWidth = $(window).width();
+    if (winWidth < 769) {
+        $(".particleDesktop").attr('id', '');
+        $(".particleMob").attr('id', 'particles-js');
+    }
+
     /* =========================================================== */
 
     $(document).ready(function () {

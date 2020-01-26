@@ -76,13 +76,35 @@
                 margin-bottom: 0;
             }
 
-            .about-img::before {
+            /* .about-img::before {
                 content: unset;
             }
 
             .about-img::after {
                 content: unset;
+            } */
+            /* 
+            .img-profile::before,
+            .img-profile::after {
+                position: absolute;
+                content: "";
+                height: 30%;
+                width: 55px;
+                background-image: url(../img/dot.png);
+                z-index: -1;
+                background-position: 21px;
             }
+
+            .img-profile::before {
+                top: 50px;
+                left: 50px;
+                background-position: 23px;
+            }
+
+            .img-profile::after {
+                right: 50px;
+                bottom: 50px;
+            } */
         }
     </style>
 
@@ -159,10 +181,10 @@
         <!-- end of menu -->
 
         <!-- begin of landing-wrapper -->
-        <div id="home" class="landing-wrapper d-md-none">
+        <div class="landing-wrapper d-md-none particleMob">
             <div class="container dTable">
                 <div class="dTableCell" style="position: relative;z-index: 1;">
-                    <div class="mb-40">
+                    <div class="mb-20">
                         <div class="about-img">
                             <img src="img/jayasurya.jpg" alt="" class="img-fluid img-profile">
                         </div>
@@ -190,7 +212,7 @@
             </div>
         </div>
 
-        <div id="home" class="landing-wrapper d-md-block d-none">
+        <div id="particles-js" class="landing-wrapper d-md-block d-none particleDesktop">
             <div class="container">
                 <div class="row align-items-center" style="position: relative;z-index: 1;">
                     <div class="col-md-6 order-md-first order-sm-last order-last">
