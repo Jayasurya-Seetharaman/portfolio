@@ -16,103 +16,6 @@
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <!--  responsive css  -->
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
-
-    <style>
-        .about-img::before {
-            left: 50px;
-        }
-
-        .img-profile {
-            display: block;
-            border-radius: 12px;
-            height: 300px;
-            width: 300px;
-            object-fit: cover;
-            margin: auto;
-        }
-
-        .about-img::after {
-            right: 50px;
-        }
-
-        .section-padding {
-            padding: 90px 0;
-        }
-
-        .project-short-info mb-0 h4 {
-            font-size: 30px;
-        }
-
-        .dTable {
-            display: table;
-            width: 100%;
-        }
-
-        .dTableCell {
-            display: table-cell;
-            vertical-align: middle;
-        }
-
-        .project-img img {
-            opacity: .5;
-        }
-
-        .noise-dark {
-            background: rgb(0, 0, 0);
-        }
-
-        .project-short-info {
-            padding-left: 0;
-            padding-top: 20px;
-        }
-
-        .project-short-info h4 {
-            font-size: 30px;
-        }
-
-        @media screen and (max-width: 768px) {
-            .img-profile {
-                width: 200px;
-                height: 200px;
-                border-radius: 100%;
-            }
-
-            .about-img {
-                margin-bottom: 0;
-            }
-
-            /* .about-img::before {
-                content: unset;
-            }
-
-            .about-img::after {
-                content: unset;
-            } */
-            /* 
-            .img-profile::before,
-            .img-profile::after {
-                position: absolute;
-                content: "";
-                height: 30%;
-                width: 55px;
-                background-image: url(../img/dot.png);
-                z-index: -1;
-                background-position: 21px;
-            }
-
-            .img-profile::before {
-                top: 50px;
-                left: 50px;
-                background-position: 23px;
-            }
-
-            .img-profile::after {
-                right: 50px;
-                bottom: 50px;
-            } */
-        }
-    </style>
-
 </head>
 
 <body id="top">
@@ -170,7 +73,7 @@
             <!-- menu/page-links -->
             <div class="menu-panel">
                 <ul class="page-links">
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="#particles-js">Home</a></li>
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -186,51 +89,16 @@
         <!-- end of menu -->
 
         <!-- begin of landing-wrapper -->
-        <div class="landing-wrapper d-md-none particleMob">
-            <div class="container dTable">
-                <div class="dTableCell" style="position: relative;z-index: 1;">
-                    <div class="mb-20">
-                        <div class="about-img">
-                            <img src="img/jayasurya.jpg" alt="" class="img-fluid img-profile">
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="landing-content">
-                            <h2 class="intro-text text-left">I Am <span class="u-line">Jayasurya</span>.<br>A <span
-                                    class="u-line">front-end </span> engineer. who always creates <span
-                                    class="u-line">pixel-perfect interfaces</span> with a high attention to <span
-                                    class="u-line">detail.</span></h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="landing-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <a href="#about" class="smooth-scroll scroll-down">
-                                <span class="ion-arrow-down-c"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="particles-js" class="landing-wrapper d-md-block d-none particleDesktop">
+        <div id="particles-js" class="landing-wrapper">
             <div class="container">
-                <div class="row align-items-center" style="position: relative;z-index: 1;">
-                    <div class="col-md-6 order-md-first order-sm-last order-last">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-10">
                         <div class="landing-content">
-                            <h2 class="intro-text text-left">I Am <span class="u-line">Jayasurya</span>.<br>A <span
-                                    class="u-line">front-end </span> engineer. who always creates <span
-                                    class="u-line">pixel-perfect interfaces</span> with a high attention to <span
-                                    class="u-line">detail.</span></h2>
-                        </div>
-                    </div>
-                    <div class="col-md-6 order-md-last order-sm-first order-first">
-                        <div class="about-img">
-                            <img src="img/jayasurya.jpg" alt="" class="img-fluid img-profile">
+                            <h2 class="intro-text">I Am <span class="u-line">Jayasurya</span>.<br>A <span
+                                    class="u-line">front-end </span> engineer. who always Ready to build
+                                something
+                                <span class="u-line">great</span> that make people's lives <span
+                                    class="u-line">simple</span>.</h2>
                         </div>
                     </div>
                 </div>
@@ -239,6 +107,15 @@
                 <div class="container">
                     <div class="row">
                         <div class="col">
+                            <ul class="social-links">
+                                <li><a href="https://www.linkedin.com/in/jayasurya-s/" target="_blank"><span
+                                            class="ion-social-linkedin"></span></a></li>
+                                <li><a href="https://github.com/Jayasurya-Seetharaman/" target="_blank"><span
+                                            class="ion-social-github"></span></a></li>
+                                <li><a href="https://twitter.com/jayasurya_dev" target="_blank"><span
+                                            class="ion-social-twitter"></span></a></li>
+                            </ul>
+                            <!-- scroll-down -->
                             <a href="#about" class="smooth-scroll scroll-down">
                                 <span class="ion-arrow-down-c"></span>
                             </a>
@@ -250,7 +127,7 @@
         <!-- end of landing-wrapper -->
 
         <!-- begin of about-wrapper -->
-        <!-- <div id="about" class="section-padding about-wrapper">
+        <div id="about" class="section-padding about-wrapper">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6">
@@ -275,55 +152,6 @@
                     </div>
                 </div>
             </div>
-        </div> -->
-
-
-        <div id="about" class="section-padding testimonial-wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="section-title-alt">
-                            <h4 class="u-line">About</h4>
-                            <br>
-                            <h4 class="u-line">Me</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="testimonials-item">
-                                    <div class="reviewer-info">
-                                        <img src="img/jayasurya-thumb.jpg" alt="">
-                                        <h3>Jayasurya Seetharaman</h3>
-                                        <p><b>User interface Developer</b> at Thence</p>
-                                    </div>
-                                    <p class="testimonial-text">I'm profound in developing and amuse with designing.
-                                        I believe that, my every single work is a part of my learning. My learning
-                                        inducement
-                                        with <b>Two years of experience</b> as a Front-End Developer. I’m adroit of
-                                        making
-                                        <b>Responsive & Interactive sites with Pixel Perfection</b> . My project works
-                                        are the
-                                        outcomes
-                                        of my dedication.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mt-20">
-                            <div class="col">
-                                <ul class="social-links">
-                                    <li><a href="https://www.linkedin.com/in/jayasurya-s/" target="_blank"><span
-                                                class="ion-social-linkedin"></span></a></li>
-                                    <li><a href="https://github.com/Jayasurya-Seetharaman/" target="_blank"><span
-                                                class="ion-social-github"></span></a></li>
-                                    <li><a href="https://twitter.com/jayasurya_dev" target="_blank"><span
-                                                class="ion-social-twitter"></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
         <!-- end of about-wrapper -->
 
@@ -335,7 +163,7 @@
                         <div class="section-title-alt">
                             <h4 class="u-line">What</h4>
                             <br />
-                            <h4 class="u-line">I Can Do</h4>
+                            <h4 class="u-line">I Deliver</h4>
                         </div>
                     </div>
                 </div>
@@ -343,33 +171,28 @@
                     <div class="col-md-4">
                         <div class="service-item mt-30">
                             <div class="service-border">
-                                <!-- <span class="ion-ios-infinite-outline"></span> -->
-                                <h4>User Interface Design</h4>
-                                <!-- <p>By building reusable code and component for future use.</p> -->
-                                <p>Build an innovative User Interface by translating user & business needs into
-                                    functional code.</p>
+                                <span class="ion-ios-infinite-outline"></span>
+                                <h4>Front-End Development</h4>
+                                <p>Facilis minima illum distinctio dicta eligendi maiores quos voluptate quaerat
+                                    remrepe!</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="service-item mt-30">
                             <div class="service-border">
-                                <!-- <span class="ion-ios-eye-outline"></span> -->
+                                <span class="ion-ios-eye-outline"></span>
                                 <h4>Interactive Design</h4>
-                                <!-- <p>By creating subtle animation for better UX for the End-Users.</p> -->
-                                <p>Creating subtle animaton to provide better UX for the End-Users and to make the site
-                                    more interactive.</p>
+                                <p>Itaque dolores quis error ad beatae quaerat voluptates, aut ipsam magnam aliquam!</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="service-item mt-30">
                             <div class="service-border">
-                                <!-- <span class="ion-ios-barcode-outline"></span> -->
+                                <span class="ion-ios-barcode-outline"></span>
                                 <h4>Pixel Perfect Design</h4>
-                                <!-- <p>By without making any compromise on Code Optimization. </p> -->
-                                <p>Deliver an Interactive User Interface without any compromise on Pixel Perfect
-                                    Design. </p>
+                                <p>Aliquid ut cupiditate et animi qui quaerat quia ipsum, id eaque numquam laborum!</p>
                             </div>
                         </div>
                     </div>
@@ -423,7 +246,7 @@
         <!-- end of client-image-wrapper -->
 
         <!-- begin of projects-wrapper -->
-        <div class="section-padding projects-wrapper" id="projects" style="padding-bottom: 30px;">
+        <div class="section-padding projects-wrapper" id="projects">
             <div class="container mb-40">
                 <div class="row">
                     <div class="col-md-3">
@@ -437,119 +260,17 @@
             </div>
             <div class="project-item">
                 <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4 col-md-6 mb-40">
-                            <a href="https://www.thence.co/" target="_blank">
-                                <div class="project-img noise-dark">
-                                    <img class="img-fluid" src="img/projects/thence.PNG" alt="">
-                                </div>
-                            </a>
-                            <div class="project-short-info mb-0">
-                                <p>Corporate Site</p>
-                                <a href="https://www.thence.co/" target="_blank">
-                                    <h4 data-text="Thence">Thence</h4>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-40">
-                            <a href="https://www.pokerbaazi.com/" target="_blank">
-                                <div class="project-img noise-dark">
-                                    <img class="img-fluid" src="img/projects/poker-baazi.jpg" alt="">
-                                </div>
-                            </a>
-                            <div class="project-short-info mb-0">
-                                <p>Corporate Site</p>
-                                <a href="https://www.pokerbaazi.com/" target="_blank">
-                                    <h4 data-text="Poker Baazi">Poker Baazi</h4>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-40">
-                            <a href="http://test.winktales.com/leverj/" target="_blank">
-                                <div class="project-img noise-dark">
-                                    <img class="img-fluid" src="img/projects/leverj.PNG" alt="">
-                                </div>
-                            </a>
-                            <div class="project-short-info mb-0">
-                                <p>Fintech</p>
-                                <a href="http://test.winktales.com/leverj/" target="_blank">
-                                    <h4 data-text="Leverj">Leverj</h4>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-40">
-                            <a href="http://test.winktales.com/experience-andamans" target="_blank">
-                                <div class="project-img noise-dark">
-                                    <img class="img-fluid" src="img/projects/experience.PNG" alt="">
-                                </div>
-                            </a>
-                            <div class="project-short-info mb-0">
-                                <p>Corporate Site</p>
-                                <a href="http://test.winktales.com/experience-andamans" target="_blank">
-                                    <h4 data-text="Andamaan">Andamaan</h4>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-40">
-                            <a href="http://test.winktales.com/thought-blade" target="_blank">
-                                <div class="project-img noise-dark">
-                                    <img class="img-fluid" src="img/projects/thought-blade.PNG" alt="">
-                                </div>
-                            </a>
-                            <div class="project-short-info mb-0">
-                                <p>Corporate Site</p>
-                                <a href="http://test.winktales.com/thought-blade" target="_blank">
-                                    <h4 data-text="Thought Blade">Thought Blade</h4>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-40">
-                            <a href="http://test.winktales.com/square-off/product-individual.php" target="_blank">
-                                <div class="project-img noise-dark">
-                                    <img class="img-fluid" src="img/projects/sqaure-off.PNG" alt="">
-                                </div>
-                            </a>
-                            <div class="project-short-info mb-0">
-                                <p>Corporate Site</p>
-                                <a href="http://test.winktales.com/square-off/product-individual.php" target="_blank">
-                                    <h4 data-text="Square Off">Square Off</h4>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-40">
-                            <a href="http://test.winktales.com/times-of-money/" target="_blank">
-                                <div class="project-img noise-dark">
-                                    <img class="img-fluid" src="img/projects/times-of-money.PNG" alt="">
-                                </div>
-                            </a>
-                            <div class="project-short-info mb-0">
-                                <p>Dashboard Site</p>
-                                <a href="http://test.winktales.com/times-of-money/" target="_blank">
-                                    <h4 data-text="Times of Money">Times of Money</h4>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-40">
-                            <a href="https://goldenpi.com/" target="_blank">
-                                <div class="project-img noise-dark">
-                                    <img class="img-fluid" src="img/projects/goldenpi.jpg" alt="">
-                                </div>
-                            </a>
-                            <div class="project-short-info mb-0">
-                                <p>Fintech</p>
-                                <a href="https://goldenpi.com/" target="_blank">
-                                    <h4 data-text="GoldenPi">GoldenPi</h4>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-40">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-md-6">
                             <a href="https://jayasurya-seetharaman.github.io/cssframework/" target="_blank">
                                 <div class="project-img noise-dark">
                                     <img class="img-fluid" src="img/projects/light-css.jpg" alt="">
                                 </div>
                             </a>
-                            <div class="project-short-info mb-0">
-                                <p>Own Css Framework</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-short-info">
+                                <p>Own Project</p>
                                 <a href="https://jayasurya-seetharaman.github.io/cssframework/" target="_blank">
                                     <h4 data-text="Light CSS">Light CSS</h4>
                                 </a>
@@ -558,17 +279,222 @@
                     </div>
                 </div>
             </div>
+            <div class="project-item right-image">
+                <div class="container">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-md-6 order-md-first order-sm-last order-last">
+                            <div class="project-short-info">
+                                <p>Corporate Site</p>
+                                <a href="http://test.winktales.com/poker-baazi" target="_blank">
+                                    <h4 data-text="Poker Baazi">Poker Baazi</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 order-md-last order-sm-first order-first">
+                            <a href="http://test.winktales.com/poker-baazi" target="_blank">
+                                <div class="project-img noise-dark">
+                                    <img class="img-fluid" src="img/projects/poker-baazi.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="container">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-md-6">
+                            <a href="http://test.winktales.com/leverj/" target="_blank">
+                                <div class="project-img noise-dark">
+                                    <img class="img-fluid" src="img/projects/leverj.PNG" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-short-info">
+                                <p>Dashboard</p>
+                                <a href="http://test.winktales.com/leverj/" target="_blank">
+                                    <h4 data-text="Leverj">Leverj</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item right-image">
+                <div class="container">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-md-6 order-md-first order-sm-last order-last">
+                            <div class="project-short-info">
+                                <p>Fintech</p>
+                                <a href="https://goldenpi.com/" target="_blank">
+                                    <h4 data-text="GoldenPi">GoldenPi</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 order-md-last order-sm-first order-first">
+                            <a href="https://goldenpi.com/" target="_blank">
+                                <div class="project-img noise-dark">
+                                    <img class="img-fluid" src="img/projects/goldenpi.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="container">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-md-6">
+                            <a href="http://test.winktales.com/experience-andamans" target="_blank">
+                                <div class="project-img noise-dark">
+                                    <img class="img-fluid" src="img/projects/experience.PNG" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-short-info">
+                                <p>Corporate Site</p>
+                                <a href="http://test.winktales.com/experience-andamans" target="_blank">
+                                    <h4 data-text="Experience Andamaan">Experience Andamaan</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item right-image">
+                <div class="container">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-md-6 order-md-first order-sm-last order-last">
+                            <div class="project-short-info">
+                                <p>Corporate Site</p>
+                                <a href="http://test.winktales.com/thought-blade" target="_blank">
+                                    <h4 data-text="Thought Blade">Thought Blade</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 order-md-last order-sm-first order-first">
+                            <a href="http://test.winktales.com/thought-blade" target="_blank">
+                                <div class="project-img noise-dark">
+                                    <img class="img-fluid" src="img/projects/thought-blade.PNG" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="container">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-md-6">
+                            <a href="http://test.winktales.com/square-off/product-individual.php" target="_blank">
+                                <div class="project-img noise-dark">
+                                    <img class="img-fluid" src="img/projects/sqaure-off.PNG" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-short-info">
+                                <p>Corporate Site</p>
+                                <a href="http://test.winktales.com/square-off/product-individual.php" target="_blank">
+                                    <h4 data-text="Square Off">Square Off</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item right-image">
+                <div class="container">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-md-6 order-md-first order-sm-last order-last">
+                            <div class="project-short-info">
+                                <p>Corporate Site</p>
+                                <a href="http://test.winktales.com/times-of-money/" target="_blank">
+                                    <h4 data-text="Times of Money">Times of Money</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 order-md-last order-sm-first order-first">
+                            <a href="http://test.winktales.com/times-of-money/" target="_blank">
+                                <div class="project-img noise-dark">
+                                    <img class="img-fluid" src="img/projects/times-of-money.PNG" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="container">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-md-6">
+                            <a href="https://www.thence.co/" target="_blank">
+                                <div class="project-img noise-dark">
+                                    <img class="img-fluid" src="img/projects/thence.PNG" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-short-info">
+                                <p>Corporate Site</p>
+                                <a href="https://www.thence.co/" target="_blank">
+                                    <h4 data-text="Thence">Thence</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item right-image">
+                <div class="container">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-md-6 order-md-first order-sm-last order-last">
+                            <div class="project-short-info">
+                                <p>Corporate Site</p>
+                                <a href="http://test.winktales.com/mobile-pixel/" target="_blank">
+                                    <h4 data-text="Mobile Pixel">Mobile Pixel</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 order-md-last order-sm-first order-first">
+                            <a href="http://test.winktales.com/mobile-pixel/" target="_blank">
+                                <div class="project-img noise-dark">
+                                    <img class="img-fluid" src="img/projects/mobile-pixel.PNG" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
         <!-- end of projects-wrapper -->
 
+        <!-- begin of promotion-wrapper  -->
+        <div class="promotion-wrapper" id="contact">
+            <!-- lineAnimationBG -->
+            <div class="lineAnim-bg">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-6 col-md-8">
+                        <h4>Looking for my <span>CV</span>?</h4>
+                        <a href="Jayasurya-Resume.pdf" class="js-button" download>download now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of promotion-wrapper -->
         <!--  begin of footer  -->
         <footer class="section-padding text-center">
             <div class="container">
                 <div class="row no-gutters">
-                    <div class="col-12 text-center mb-30">
-                        <button class="js-button">Download Cv</button>
-                    </div>
                     <div class="col-12">
                         <div class="social">
                             <a href="https://www.linkedin.com/in/jayasurya-s/" target="_blank">Linkedin</a>
@@ -617,7 +543,6 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="js/particles.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> -->
 </body>
 
 </html>
